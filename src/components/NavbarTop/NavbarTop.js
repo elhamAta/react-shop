@@ -25,7 +25,7 @@ const NavbarTop = () =>{
                     <li>
                         <Link to="/">
                             <span>
-                                {carts.length}
+                                {carts && carts.length}
                             </span>
                             <MdLocalGroceryStore />
                         </Link>
