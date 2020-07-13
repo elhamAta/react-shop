@@ -9,13 +9,13 @@ const settings = {
 const SliderIndex = ({
     images = [
         {
-            imgSrc: 'http://localhost:3000/images/slider.jpg',
+            imgSrc: '/images/slider.jpg',
         },
         {
-            imgSrc: 'http://localhost:3000/images/slider.jpg',
+            imgSrc: '/images/slider.jpg',
         },
         {
-            imgSrc: 'http://localhost:3000/images/slider.jpg',
+            imgSrc: '/images/slider.jpg',
         }
     ],
 }) => (

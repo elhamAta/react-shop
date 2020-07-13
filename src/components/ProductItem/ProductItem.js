@@ -11,8 +11,7 @@ import CartContext from '../../contexts/CartContext';
 
 const ProductItem = ({data}) => {
     const {carts, dispatchCart } = useContext(CartContext);
-
-    const added = carts.includes(data.id)
+    const added = carts ? carts.includes(data.id) : null
     const handleAdd = () => {
         if (added) {
             dispatchCart({
